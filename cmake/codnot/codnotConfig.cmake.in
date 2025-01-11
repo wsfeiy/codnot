@@ -1,0 +1,11 @@
+# cmake/codnot/codnotConfig.cmake.in
+include(CMakeFindDependencyMacro)
+
+# 设置库的路径
+set(CODNOT_INCLUDE_DIRS "@CMAKE_INSTALL_PREFIX@/include/")
+
+# 导入库的目标文件
+include("${CMAKE_CURRENT_LIST_DIR}/codnotTargets.cmake")
+
+# 设置命名空间
+set(CODNOT_NAMESPACE "codnot::")

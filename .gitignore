@@ -1,0 +1,7 @@
+.vscode/
+cmake/build/
+Doxyfile/
+doxygen/
+Doxyfile
+folder-alias.json
+
